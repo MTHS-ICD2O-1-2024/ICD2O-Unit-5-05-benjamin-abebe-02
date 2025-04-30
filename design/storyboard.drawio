@@ -1,11 +1,35 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="399" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1684" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="40" width="760" height="480" as="geometry"/>
+                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="1120" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;p style=&quot;line-height: 190%;&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;Determining the type of triangle, With JS&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7">
+                    <mxGeometry y="40" width="550" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Enter the length of all sides of your triangle.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="70" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="12" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="120" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;12&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="160" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;12&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="200" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Find the type of triangle" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="7">
+                    <mxGeometry x="20" y="260" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="7">
+                    <mxGeometry x="810" y="70" width="290" height="174" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Your triangle type is equalateral triangle." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="7">
+                    <mxGeometry x="20" y="340" width="290" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
