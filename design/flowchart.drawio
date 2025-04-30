@@ -5,10 +5,40 @@
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="310" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="120" y="30" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="510" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="730" y="510" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="get values of length-a" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="130" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="get values of length-c" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="310" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="get values of length-b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="220" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="convert all the lengths into angles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="add up all angles&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="sumOfAngle == 180" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="100" width="150" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="if" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="325" y="120" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="angleA == angleB == angleC" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="100" width="150" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="if" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="120" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="angleA == angleB == angleC" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="100" width="150" height="120" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
